@@ -9,10 +9,13 @@
 .hero {
     position: relative;
     height: 100vh; /* Adjust this for the desired height */
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+    background-image: url('IMG_4590.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(8px); /* Adjust the blur effect */
+    .hero {
+
+}
 }
 
 /* Create an overlay for the text */
