@@ -7,16 +7,30 @@
 
 /* Apply styles to the hero container */
 .hero {
+    position: relative;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 /* Style for the image */
 .hero img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
+}
+
+/* Create an overlay for the text */
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* Style for the name */
+h1 {
+    font-size: 4rem; /* Adjust the font size */
 }
