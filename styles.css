@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica', sans-serif;
+    overflow: hidden; /* Disable scrolling */
 }
 
 .container {
@@ -29,7 +30,10 @@ body {
 
 .center-text {
     text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center-text h1 {
